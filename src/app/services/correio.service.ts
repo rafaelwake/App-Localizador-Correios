@@ -12,5 +12,6 @@ export class CorreioService {
     //const codRastreio = 'QM710153725BR';
     const response = rastrearEncomendas(codigoObjeto);
     console.log(response);
+    console.log('teste');
   }
 }

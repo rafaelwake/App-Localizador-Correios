@@ -13,5 +13,6 @@ export class HomePage {
     console.log(event.detail.value);
     let codigo = event.detail.value;
     this.correioService.localizarObjeto(codigo);
+    console.log('teste');
   }
 }
